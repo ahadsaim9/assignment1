@@ -6,7 +6,7 @@
 }
 .main-section {
   display: flex;
-  padding: 50px 100px 0px 100px;
+  padding: 50px 120px 0px 120px;
   background-color: #e554731a;
   font-family: "Lato", sans-serif;
 }
@@ -16,6 +16,9 @@
   font-family: "Lato", sans-serif;
   font-size: 45px;
   font-weight: 800;
+}
+.banner p {
+  margin-bottom: 20px;
 }
 .banner img {
   max-width: 340px;
@@ -96,6 +99,9 @@
   padding: 30px 40px;
   text-align: center;
 }
+#logo-main-section p {
+  color: gray;
+}
 #sign-up-section {
   margin-bottom: 50px;
   display: flex;
@@ -132,14 +138,79 @@
   margin-bottom: 20px;
   font-size: 30px;
 }
+#instagram p {
+  margin-bottom: 30px;
+  color: gray;
+}
 .flower-section {
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
   display: flex;
 }
 .flower-section img {
   width: 230px;
   height: 240px;
+}
+.background-image {
+  background-image: url(image/Rectangle\ 9.png);
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 80%;
+  margin: 50px auto;
+  background-repeat: no-repeat, repeat;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding-top: 50px;
+
+  /* background-image: linear-gradient(red, yellow, green); */
+}
+.background-text {
+  margin: 50px auto;
+}
+.background-text h3 {
+  font-size: 30px;
+}
+.background-text-p {
+  margin-top: 20px;
+}
+.background-text input {
+  height: 32px;
+  width: 400px;
+  padding-left: 20px;
+  border: none;
+  box-shadow: 2px 2px 8px gray;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.submit-btn{
+    background-color: #e55473;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+}
+#footer-main {
+  background-color: black;
+  margin-top: 50px;
+  color: white;
+  text-align: center;
+  padding: 50px;
+  height: 250px;
+}
+#footer-main span {
+  color: #e55473;
+}
+#footer-main p {
+  margin: 20px 0px;
+  font-size: 16px;
+}
+#footer-main small {
+  margin-top: 50px 20px;
+  font-size: 10px;
 }
 
